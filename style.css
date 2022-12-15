@@ -58,17 +58,27 @@ p, span{
 /* --------main cover----- */
 
 .main-cover {
-    background-image: url(images/slides/slide2.jpg);
+    background-image: url(images/all/ngkor-thom-cover.jpg);
     background-size: cover;
     background-attachment: fixed;
     height: 750px;
+    position: relative;
     /* height: auto; */
+}
+.main-cover::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 50%;
 }
 
 .text-cover {
     font-size: 30px;
     color: #fff;
     top: 150px;
+    z-index: 99;
 }
 
 .text-cover h1 {
@@ -157,12 +167,12 @@ p, span{
     transition: .1s ease-in;
 }
 
-.btn-GS:hover i {
+.btn-GS:focus i {
     left: 104px;
     color: #fff;
 }
 
-.btn-GS:hover span {
+.btn-GS:focus span {
     right: 40px;
 }
 
@@ -179,7 +189,7 @@ p, span{
     /* height: 70px; */
     margin-top: -72px;
     background-color: var(--opacityBG);
-    font-family: 'Chenla', cursive;
+    font-family: 'Merienda', cursive;
     border-top: 1px solid var(--txtcolor);
 }
 
@@ -409,7 +419,7 @@ p, span{
   
   .offers-details {
     border: 1px solid #ddd;
-    background: #26bdf7;
+    background: var(--txtGradient);
     padding: 45px 10px;
     text-align: center;
   }
@@ -612,6 +622,10 @@ h4.servicetitle{
     background-color: #323f5423;
 }
 
+.frequently-txt{
+    font-family: 'Roboto', cursive;
+}
+
 /* --------footer-------- */
 footer .bg-curve {
     position: relative;
@@ -652,8 +666,14 @@ footer .ft-list ul li {
     text-decoration: none;
     position: relative;
 }
+footer .ft-txt-contact{
+    font-family: 'Roboto';
+}
+/* footer .ft-right{
+    margin-top: 30px;
+} */
 
-@media only screen and (max-width: 578px) {
+@media only screen and (max-width: 778px) {
     footer .bg-curve {
         height: auto;
         border-radius: 25% 40% 0 0;

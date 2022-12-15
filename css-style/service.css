@@ -11,7 +11,7 @@ h1,h2,h3,h4,h5,h6,p,*{
     --txtGradient: linear-gradient(to right, #ff5f6d, #ffc371);
 }
 body{
-    font-family: 'Chenla','Roboto' !important;
+    font-family: 'Merienda','Roboto' !important;
 }
 .navbar{
     margin: 0 !important;
@@ -35,6 +35,7 @@ body{
 .text-head-sv{
     border-left: 3px solid #fd9e6f;
     line-height: 1.8;
+    font-family: 'Roboto';
 }
 
 .img-sv{
