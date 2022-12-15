@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../css-style/contact.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.2.0-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merienda:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark p-0 sticky-top">
+    <div class="container">
+      <img src="../images/logo/logo.png" width="80px">
+      <svg class="ham hamRotate ham1 d-lg-none" viewBox="0 0 100 100" width="50" onclick="this.classList.toggle('active')"
+      data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <path
+              class="line top"
+              d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+        <path
+              class="line middle"
+              d="m 30,50 h 40" />
+        <path
+              class="line bottom"
+              d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+      </svg>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav d-flex justify-content-between ms-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">
+              <i class="fa-solid fa-house"></i>
+              <h6>Home</h6>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="fa-solid fa-plane"></i>
+              <h6>Service</h6>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="fa-solid fa-book-atlas"></i>
+              <h6>Blog</h6>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contact.html">
+              <i class="fa-solid fa-phone"></i>
+              <h6>Contact</h6>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutUs.html">
+              <i class="fa-regular fa-user"></i>
+              <h6>About Us</h6>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <!--Container contact start-->
+    <div class="container mt-5">
+      <div class="head-content" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <div class="h1 text-center pb-2 fw-bold">Contact</div>
+        <div class="line"></div>
+        <p class="text-center text-muted mt-3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur neque aspernatur aliquam?
+        </p>
+      </div>
+    </div>
+    <div class="container-fluid main mt-5">
+      <div class="container">
+        <div class="row ">
+          <div class="col-lg-6 col-md-6 col-sm-12 pt-3">
+            <div class="content-list mt-4">
+              <h4 class="text-light">Contact us now</h4>
+              <div class="con-icon d-flex flex-column align-items-start justify-content-between mt-3">
+                <a href="#">
+                  <i class="fa-solid fa-phone"></i>
+                  <span>+855 093438188</span>
+                </a>
+                <a href="#">
+                  <i class="fa-regular fa-envelope"></i>
+                  <span>sovitasovita@gmail.com</span>
+                </a>
+                <a href="#">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <span>Tel: +855 16 509 371</span>
+                </a>
+              </div>
+              <div class="con-line my-4"></div>
+              <div class="con-isocial me-auto">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram mx-3"></i></a>
+                <a href="#"><i class="fa-brands fa-telegram"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 p-4">
+            <div class="box-form">
+              <form action="" class="main-form">
+                <div class="mb-4 input-group">
+                  <input type="text" class="form-control" id="name" placeholder="" required>
+                  <label for="name" class="form-label">Full Name</label>
+                </div>
+                <div class="mb-4 input-group">
+                  <input type="text" class="form-control" id="email" placeholder="" required>
+                  <label for="email" class="form-label">Email Address</label>
+                </div>
+                <div class="mb-4 input-group">
+                    <span class="input-group-text" id="basic-addon1">+855</span>
+                    <input type="number" class="form-control" id="phone" required>
+                    <label for="phone" class="form-label">Phone</label>
+                </div>
+                <div class="mb-4 input-group">
+                  <select class="form-select" name="service" id="service" required>
+                    <option selected></option>
+                    <option value="Decor">Kratie</option>
+                    <option value="constraution">khoh kong</option>
+                    <option value="constraution">Phnom Penh</option>
+                    <option value="constraution">Other</option>
+                  </select>
+                  <label for="service" class="form-label">Service</label>
+                </div>
+                <div class="input-group">
+                  <textarea name="textArea" id="textArea" cols="20" rows="3" class="form-control" placeholder="" required></textarea>
+                  <label for="textArea" class="form-label">Messangs</label>
+                </div>
+                <button type="submit" class="btn btn-success mt-3">Send</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hiden-box d-lg-none d-md-none d-block"></div>
+
+    <!-- ---------Footer Start-------- -->
+    <footer class="mt-5">
+      <div class="container-fluid d-flex align-items-center bg-curve">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-6 mt-5 mt-lg-0 mt-md-0" data-aos="fade-right">
+              <div class="ft-left">
+                <div class="ft-logo text-white fw-bolder">
+                  <img src="../images/logo/logo.png" class="img-fluid py-2" width="130px">
+                </div>
+                <p class="text-white">Cambodia Cab Driver</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-6 mt-5 mt-lg-0 mt-md-0" data-aos="zoom-in">
+              <div class="ft-center">
+                <span class="h5 text-white fw-bolder">service</span>
+                <div class="ft-list">
+                  <ul class="list-unstyled mt-2 ms-3">
+                    <li>&#8594; Taprohm</li>
+                    <li>&#8594; Oudong</li>
+                    <li>&#8594; Toul Sleng</li>
+                    <li>&#8594; Market.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 mt-lg-0 mt-3">
+              <div class="ft-right">
+                <span class="h5 text-white fw-bolder p-2">Contact Us</span>
+                <div class="isocial mt-3">
+                  <a href="https://www.facebook.com/dara.sovita2019rupp?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="https://www.instagram.com/invites/contact/?i=7imd7lhukz8q&utm_content=3x39d1p"><i class="fa-brands fa-instagram mx-3"></i></a>
+                  <a href="https://t.me/sovitadara27"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+                <div class="text-white mt-3">
+                  Email: sarethroun@gmail.com <br>
+                  WhatsApp: +855 16 509 371 <br>
+                  Tel: +855 16 509 371 <br>
+                  Line: +855 16 509 371
+                </div>
+              </div>
+            </div>
+            <p class="text-center text-muted mt-5 p-2">Copyright &#169; 2022 nisa co-ltd. All rights reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ---------Footer End-------- -->
+
+    <script src="../js/bootstrap.bundle.js"></script>
+</body>
+</html>

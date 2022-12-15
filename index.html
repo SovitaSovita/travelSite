@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cap Driver</title>
+    <!-- ---Link BS--- -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- -----CSS link------ -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ----Link Sroller animate----- -->
+    <link rel="stylesheet" href="aos-master/dist/aos.css">
+    <!-- -----------Animate.css----------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <!-- ----link Icon fontawesome----- -->
+    <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.min.css">
+    <!-- ----link Google font---- -->
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merienda:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+  <!-------------Header bar start---------------->
+    <div class="container-fluid bg-dark p-2">
+      <div class="container">
+        <div class="row d-flex justify-content-around">
+          <div class="col-lg-5 col-md-6 col-sm-12 col-12 px-sm-0">
+            <span class="text-light"><i class="mr-2 far fa-clock"></i> Mon - Sat 10.am - 07.30pm. Sunday CLOSED</span>
+          </div>
+          <div class="col-md-3 d-md-block d-none">
+            <span>
+              <div class="top_social">
+                <div class="socialbox">
+                  <a class="facebook" href="https://www.facebook.com/" target="_blank"><i
+                      class="fab fa-facebook-f align-middle " aria-hidden="true"></i></a>
+                  <a class="gplus" href="https://plus.google.com/" target="_blank"><i
+                      class="fab fa-google-plus-g align-middle" aria-hidden="true"></i></a>
+                  <a class="flicker" href="https://www.flickr.com/" target="_blank"><i
+                      class="fab fa-flickr align-middle " aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------------Header bar end---------------->
+
+    <!-- ------cover hero strat------  -->
+    <div class="container-fluid">
+        <div class="row">
+          <div class="main-cover d-flex justify-content-center position-relative">
+            <div class="text-cover d-flex flex-column align-items-center fw-bold position-absolute">
+              <div class="text-center fw-bold py-4 px-2 animate__animated animate__bounce">
+                Best Tour Service in Cambodia
+              </div>
+              <h1 class="fw-bolder px-3" data-text="Your_Journey_Begins.">Your_Journey_Begins.</h1>
+              <p class="fs-6 text-center px-4 py-4">
+                Lorem ipsum dolor sit amet.
+              </p>
+              <button type="button" class="btn-GS">
+                <i class="fa-solid fa-circle-right"></i>
+                <span class="btn-text">Get start</span>
+              </button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- ------cover hero end------  -->
+
+
+    <!-- ---Navigation start---- -->
+    <nav class="navbar navbar-expand-lg navbar-dark p-0 sticky-top">
+      <div class="container">
+        <img src="images/logo/logo.png" width="80px">
+        <svg class="ham hamRotate ham1 d-lg-none" viewBox="0 0 100 100" width="50" onclick="this.classList.toggle('active')"
+        data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <path
+                class="line top"
+                d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+          <path
+                class="line middle"
+                d="m 30,50 h 40" />
+          <path
+                class="line bottom"
+                d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+        </svg>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav d-flex justify-content-between ms-auto mb-2 mb-lg-0">
+
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">
+                <i class="fa-solid fa-house"></i>
+                <h6>Home</h6>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fa-solid fa-plane"></i>
+                <h6>Service</h6>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fa-solid fa-book-atlas"></i>
+                <h6>Blog</h6>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="page/contact.html">
+                <i class="fa-solid fa-phone"></i>
+                <h6>Contact</h6>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="page/aboutUs.html">
+                <i class="fa-regular fa-user"></i>
+                <h6>About Us</h6>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- ------Navigation end------  -->
+
+    
+    <!-- ------card content slider avd start------  -->
+    <div class="container-fluid mt-5">
+      <div class="row">
+        <div class="col-lg-4 col-md-5 col-sm-12 d-flex justify-content-center align-items-center" data-aos="fade-right" data-aos-offset="300">
+          <div class="left-sideText ms-5">
+            <div class="h1">Popular Tours</div>
+            <p class="text-muted p-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam maiores 
+              necessitatibus consectetur voluptates adipisci, saepe odit autem atque, 
+              quidem eaque pariatur, rerum delectus distinctio suscipit sint eius aspernatur iste consequatur?
+            </p>
+            <button type="button" class="btn-GS">
+              <i class="fa-solid fa-circle-right"></i>
+              <span class="btn-text">Get start</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-8 col-md-7 col-sm-12 mt-lg-0 mt-md-0 mt-5" data-aos="zoom-in">
+          <div class="slider">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="img-slide w-100 h-100 d-flex align-items-center position-relative">
+                    <img src="images/newImg/full-shot-travel-concept-with-landmarks.jpg" class="img-fluid position-absolute">
+                    <div class="h4 center-slider-card position-absolute">Presihanuk</div>
+                  </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="img-slide w-100 h-100 d-flex align-items-center position-relative">
+                      <img src="images/newImg/5.jpg" class="img-fluid position-absolute">
+                      <div class="h4 center-slider-card position-absolute">Kampot</div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="img-slide w-100 h-100 d-flex align-items-center position-relative">
+                      <img src="images/newImg/2.png" class="img-fluid position-absolute">
+                      <div class="h4 center-slider-card position-absolute">Boko mountain</div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="img-slide w-100 h-100 d-flex align-items-center position-relative">
+                      <img src="images/newImg/4.jfif" class="img-fluid position-absolute">
+                      <div class="h4 center-slider-card position-absolute">AirPort</div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="img-slide w-100 h-100 d-flex align-items-center position-relative">
+                      <img src="images/newImg/1.jpg" class="img-fluid position-absolute">
+                      <div class="h4 center-slider-card position-absolute">Phnom tamoa</div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="img-slide w-100 h-100 d-flex align-items-center position-relative">
+                      <img src="images/newImg/traveler-asian-couple-direction-location-map-beijing-china.jpg" class="img-fluid position-absolute">
+                      <div class="h4 center-slider-card position-absolute">Rathanakiri</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------card content slider avd end------  -->
+
+
+    <!-- ------special offer start------  -->
+    <div class="container mt-5">
+      <div class="head-content" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <div class="h1 text-center pb-2 fw-bold">Special Offers</div>
+        <div class="line"></div>
+        <p class="text-center text-muted my-3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, autem!
+        </p>
+      </div>
+
+      <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-6 col-12 mt-md-5">
+          <div class="offer-box row">
+            <div class="col-xl-4 col-lg-4 col-md-3 col-sm-12 col-12">
+              <img src="images/last-offers/specialoffers2.jpg" alt="special2" class="img-fluid">
+            </div>
+            <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12 offer-content p-0 bg-white">
+              <div class="offer-box-content">
+                <h4 class="mb-3">
+                  <a href="#">Hot Baloon Special Journey</a>
+                </h4>
+                <div class="mb-3">
+                  <div class="rating px-lg-0"> </div>
+                  <div class="offertimings">
+                    2 Days 1 Night 
+                  </div>
+                </div>
+                <span class="posttext post">Lorem Ipsum has been the industrys standard dummy text
+                  ever since the 1500 when an</span>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12 offers-details">
+              <div class="offer-icons">
+              </div>
+              <div class="speoffer">
+                <span class="offer-package">
+                  $1500</span>
+              </div>
+              <div class="mt-4 mb-3">
+                <a class="btn btn-primary rounded-pill" href="#">View Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-6 col-12 mt-md-5">
+          <div class="offer-box row">
+            <div class="col-xl-4 col-lg-4 col-md-3 col-sm-12 col-12">
+              <img src="images/last-offers/specialoffers1.jpg" alt="special2" class="img-fluid">
+            </div>
+            <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12 offer-content p-0 bg-white">
+              <div class="offer-box-content">
+                <h4 class="mb-3">
+                  <a href="#">Hot Baloon Special Journey</a>
+                </h4>
+                <div class="mb-3">
+                  <div class="rating px-lg-0"> </div>
+                  <div class="offertimings">
+                    2 Days 1 Night 
+                  </div>
+                </div>
+                <span class="posttext post">Lorem Ipsum has been the industrys standard dummy text
+                  ever since the 1500 when an</span>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12 offers-details">
+              <div class="offer-icons">
+              </div>
+              <div class="speoffer">
+                <span class="offer-package">
+                  $1500</span>
+              </div>
+              <div class="mt-4 mb-3">
+                <a class="btn btn-primary rounded-pill" href="#">View Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------special offer end------  -->
+
+
+    <!-- --------both card Avd Start------- -->
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-6 col-md-7">
+          <div class="row card-home">
+            <div class="col-6">
+              
+            </div>
+            <div class="col-6 d-flex justify-content-center position-relative">
+              <div class="bigTxt h4 mt-5" data-aos="zoom-in" data-aos-duration="400">
+                Peek Mountain View <br>
+                Lorem ipsum dolor sit amet.
+              </div>
+              
+              <div class="fs-6 fw-bold text-onHome position-absolute" data-aos="fade-right"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-5">
+          <div class="left-sideText ms-5 mt-5">
+            <div class="h1">Hot Deals</div>
+            <p class="text-muted p-2">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat a earum
+              consequuntur vel expedita repudiandae molestias facilis explicabo corrupti delectus!
+            </p>
+            <button type="button" class="btn-GS">
+              <i class="fa-solid fa-circle-right"></i>
+              <span class="btn-text">Get start</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ---------Both card avd End-------- -->
+
+
+<!-- ------item content business start------ -->
+    <section>
+      <div class="container-fluid main-fixedImg mt-5">
+          <div class="container">
+              <div class="w-100">
+              <div class="row mt-5 py-5">
+                <div class="col-lg-6 col-md-5 col-12">
+                  <div class="textOn-item text-white " data-aos="fade-right">
+                    <p>Best Service <br>And Quality</p>
+                    <div class="rating d-flex">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gold" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gold" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gold" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gold" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gold" class="bi bi-star-half" viewBox="0 0 16 16">
+                        <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                      </svg>
+                      <span class="ms-2 mb-Z">4/5</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-7 col-12 mt-sm-3">
+                  <div class="bg-glass px-3 py-3">
+                    <div class="row Ontop-avd">
+                      <div class="col-lg-6 col-md-6 col-12">
+                        <img src="images/newImg/3.jfif" class="img-fluid rounded-3">
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-12">
+                        <div class="h3 mt-2">Our Services</div>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+                           laboriosam error atque reiciendis, veritatis enim fugit rerum
+                            dignissimos corporis accusantium impedit eligendi blanditiis 
+                            fugiat dolore, repellendus magnam eius. Nulla, quasi.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row Under-avd mt-2">
+                      <div class="col-lg-6 col-md-6 col-12">
+                        <img src="images/newImg/6.jpg" alt="" class="img-fluid rounded-3">
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-12">
+                        <div class="h3 mt-2">Experince</div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis qui</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+<!-- ------item content business end------  -->
+
+
+    <!-- ------Stuff-card side start------  -->
+    <div class="container mt-5">
+      <div class="head-content" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <div class="h1 text-center pb-2 fw-bold">Discount 10% - 30%</div>
+        <div class="line"></div>
+        <p class="text-center text-muted my-3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, autem!
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt-4">
+          <div class="servicebox">
+            <img src="images/services/ourservicesimg1.png">
+            <div class="servicebox-content text-center">
+              <h4 class="servicetitle">
+                Transportation </h4>
+              <p class="servicepara">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt-4">
+          <div class="servicebox">
+            <img src="images/services/ourservicesimg2.png">
+            <div class="servicebox-content text-center">
+              <h4 class="servicetitle">
+                Hotel Booking </h4>
+              <p class="servicepara">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt-4">
+          <div class="servicebox">
+            <img src="images/services/ourservicesimg3.png">
+            <div class="servicebox-content text-center">
+              <h4 class="servicetitle">
+                Shopping Centres </h4>
+              <p class="servicepara">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------Stuff-card side end------  -->
+
+
+    <!-- ----Client side-Start------ -->
+    <div class="container mt-5">
+      <div class="head-content" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <div class="h1 text-center pb-2 fw-bold">Our Service</div>
+        <div class="line"></div>
+        <p class="text-center text-muted my-3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, molestiae quod nihil quasi delectus fuga.
+        </p>
+      </div>
+      <div class="row mt-5">
+        <div class="col-lg-3 col-6 mb-lg-0 mb-3" data-aos="flip-right" data-aos-duration="700">
+          <div class="count-box py-5 d-flex flex-column align-items-center justify-content-center">
+            <i class="fa-regular fa-face-smile"></i>
+            <div class="h1">3203</div>
+            <div class="text-center text-muted">Happy Clients</div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-6" data-aos="flip-right" data-aos-duration="700">
+          <div class="count-box py-5 d-flex flex-column align-items-center justify-content-center">
+            <i class="fa-sharp fa-solid fa-book"></i>
+            <div class="h1">45</div>
+            <div class="text-center text-muted">Tour Types</div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-6" data-aos="flip-right" data-aos-duration="700">
+          <div class="count-box py-5 d-flex flex-column align-items-center justify-content-center">
+            <i class="fa-solid fa-headset"></i>
+            <div class="h1">24/7</div>
+            <div class="text-center text-muted">Hour of Support</div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-6" data-aos="flip-right" data-aos-duration="850">
+          <div class="count-box py-5 d-flex flex-column align-items-center justify-content-center">
+            <i class="fa-solid fa-person"></i>
+            <div class="h1">2123</div>
+            <div class="text-center text-muted">Total Tour</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid mt-4 main-clientSide">
+      <div class="container">
+        <div class="row overflow-hidden">
+          <div class="col-lg-6 d-flex">
+            <div class="img-client p-4" data-aos="zoom-in">
+              <img src="img/Clients/client-1.png" class="img-fluid">
+            </div>
+            <div class="img-client p-4" data-aos="zoom-in">
+              <img src="img/Clients/client-2.png" class="img-fluid">
+            </div>
+            <div class="img-client p-4" data-aos="zoom-in">
+              <img src="img/Clients/client-3.png" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-lg-6 d-flex">
+            <div class="img-client p-4" data-aos="zoom-in">
+              <img src="img/Clients/client-4.png" class="img-fluid w-75">
+            </div>
+            <div class="img-client p-4" data-aos="zoom-in" data-aos-duration="870">
+              <img src="img/Clients/client-5.png" class="img-fluid">
+            </div>
+            <div class="img-client p-4" data-aos="zoom-in" data-aos-duration="1000">
+              <img src="img/Clients/client-6.png" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ----Client​​​ side-end------ -->
+
+    
+    <!-- ---------Frequention Question-Start-------- -->
+    <div class="container mt-5">
+      <div class="head-content" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <div class="h1 text-center pb-2 fw-bold">Frequently Question</div>
+        <div class="line"></div>
+        <p class="text-center text-muted my-3">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, id animi minima tenetur commodi
+        </p>
+      </div>
+      <div class="accordion w-100" id="basicAccordion" data-aos="zoom-in">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+              data-mdb-target="#basicAccordionCollapseOne" aria-expanded="false" aria-controls="collapseOne">
+              Question #1 What about price?
+            </button>
+          </h2>
+          <div id="basicAccordionCollapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+            data-mdb-parent="#basicAccordion">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus inventore ut consectetur eos sit nostrum
+               reiciendis possimus facere quaerat repudiandae. Accusamus natus dolorum ex, placeat illo atque? Vero, hic dolor?
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+              data-mdb-target="#basicAccordionCollapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Question #2 how well of your service?
+            </button>
+          </h2>
+          <div id="basicAccordionCollapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-mdb-parent="#basicAccordion">
+            <div class="accordion-body">
+              Support 24/7 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum aperiam repudiandae deleniti dolorum?
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+              data-mdb-target="#basicAccordionCollapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Question #3 how many tour type?
+            </button>
+          </h2>
+          <div id="basicAccordionCollapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-mdb-parent="#basicAccordion">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ad voluptate consequatur nisi facilis vel quas dicta facere deserunt laborum!
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ---------Frequention Question-End-------- -->
+
+
+    <!-- ---------Footer Start-------- -->
+    <footer class="mt-5">
+      <div class="container-fluid d-flex align-items-center bg-curve">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-6 mt-5 mt-lg-0 mt-md-0" data-aos="fade-right">
+              <div class="ft-left">
+                <div class="ft-logo text-white fw-bolder">
+                  <img src="images/logo/logo.png" class="img-fluid py-2" width="130px">
+                </div>
+                <p class="text-white">Cambodia Cab Driver</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-6 mt-5 mt-lg-0 mt-md-0" data-aos="zoom-in">
+              <div class="ft-center">
+                <span class="h5 text-white fw-bolder">service</span>
+                <div class="ft-list">
+                  <ul class="list-unstyled mt-2 ms-3">
+                    <li>&#8594; Taprohm</li>
+                    <li>&#8594; Oudong</li>
+                    <li>&#8594; Toul Sleng</li>
+                    <li>&#8594; Market.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 mt-lg-0 mt-3">
+              <div class="ft-right">
+                <span class="h5 text-white fw-bolder p-2">Contact Us</span>
+                <div class="isocial mt-3">
+                  <a href="https://www.facebook.com/dara.sovita2019rupp?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="https://www.instagram.com/invites/contact/?i=7imd7lhukz8q&utm_content=3x39d1p"><i class="fa-brands fa-instagram mx-3"></i></a>
+                  <a href="https://t.me/sovitadara27"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+                <div class="text-white mt-3">
+                  Email: sarethroun@gmail.com <br>
+                  WhatsApp: +855 16 509 371 <br>
+                  Tel: +855 16 509 371 <br>
+                  Line: +855 16 509 371
+                </div>
+              </div>
+            </div>
+            <p class="text-center text-muted mt-5 p-2">Copyright &#169; 2022 nisa co-ltd. All rights reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ---------Footer End-------- -->
+
+
+      <!-- ----sroller animate----- -->
+      <script src="aos-master/dist/aos.js"></script>
+      <script src="js/bootstrap.bundle.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+</body>
+</html>
+
+<!--Swiper Slider-->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 30,
+    slidesPerView: 1, //for phone when we used breakpoints(reponsive)
+    // slidesPerGroup: 2,
+    centeredSlides: false,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    //reponsive swiper
+    breakpoints: {
+          640: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+          },
+          768: {
+              slidesPerView: 2,
+              spaceBetween: 30,
+          },
+          1024: {
+              slidesPerView: 3,
+              spaceBetween: 30,
+          },
+      },
+});
+</script>
+
+<!-- Sroll animate -->
+<script>
+  AOS.init();
+</script>
+
+<!-- Frequently Question -->
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"
+></script>
