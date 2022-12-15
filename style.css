@@ -61,7 +61,8 @@ p, span{
     background-image: url(images/slides/slide2.jpg);
     background-size: cover;
     background-attachment: fixed;
-    height: 720px;
+    height: 750px;
+    /* height: auto; */
 }
 
 .text-cover {
